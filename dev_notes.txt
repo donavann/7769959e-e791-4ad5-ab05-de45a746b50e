@@ -1,0 +1,13 @@
+Requirements
+X   variables
+X       job ID tracker (could share with counter, but why create security holes?)
+X       encryption counter
+X       total time spent encrypting
+X   http server
+X   listening port
+X   http endpoints
+X       /hash (post)
+X       /hash/{job id} (get)
+X       /stats (get)
+X       /shutdown (get)
+X   calcSha512 
